@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <Target Name="DisplayMessages" AfterTargets="Build">
     <Message Text="##teamcity[setParameter name='myparameter' value='test123']" Importance="high" />
